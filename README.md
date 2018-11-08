@@ -1,8 +1,6 @@
-<<<<<<< HEAD
+
 ## My Stack Problems
 
-> This project forked and has been modified from [A simple grey theme for Jekyll](https://github.com/liamsymonds/simplygrey-jekyll),
-> and the search posts using [Super Search](https://github.com/chinchang/super-search)
 
 ### Demo
 * [https://agusmakmun.github.io](https://agusmakmun.github.io)
@@ -71,6 +69,4 @@ image: Broadcast_Mail.png             # (custom) image only for meta `property="
 ### Contributing
 
 Feel free to [open a bug](https://github.com/agusmakmun/agusmakmun.github.io/issues) or [contribute to code](https://github.com/agusmakmun/agusmakmun.github.io/pulls)!
-=======
-# ydgkkang.github.io
->>>>>>> 889f2fe1dd04b80b77ed637f1ea23f6ac9c00d2c
+

@@ -20,7 +20,7 @@ xml 파싱한 데이터를 insert / update 할 경우 대량처리시 transactio
 
 {% endhighlight %}  
 
-##### CASE2 auto  
+##### CASE2 autoReconnect=true 처리  
 
     {% highlight ruby %}  
     application.properties 
@@ -29,4 +29,6 @@ xml 파싱한 데이터를 insert / update 할 경우 대량처리시 transactio
     jdbc:log4jdbc:mysql://jdbcUrl:4406/schema?autoReconnect=true&useSSL=false&useUnicode=true&characterEncoding=utf8&allowMultiQueries=true  
 
 
-{% endhighlight %}
+{% endhighlight %}  
+
+

@@ -1,10 +1,13 @@
 ---
 layout: post
-title:  "Parsing JSON with Ruby"
-date:   2013-12-23 00:18:23 +0700
+title:  "SOAP broken pipe Exception"
+date:   2018-11-09 00:18:23 +0700
 categories: [ruby]
 ---
-Parsing JSON with Ruby is actually extremely easy. All you have to do is have the json gem installed (`gem install json`) and call the `JSON.parse` method on the JSON data to convert it to ruby hashes. If you look at this small program here, you can see how I have implemented parsing JSON in Ruby.
+SOAP 통신시 broken pipe 오류가 발생했다 .왜? 나의 경우 원인은 DB I/O 처리시 발생된 이유였는데, 
+xml 파싱한 데이터를 insert / update 할 경우 대량처리시 transaction 타임이 길어지게 된다. 
+
+@Async 어노테이션을 추가한 뒤 해결
 
 {% highlight ruby %}
 #!/usr/bin/env ruby

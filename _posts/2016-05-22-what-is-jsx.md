@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "Reverse Bit [CF]"
-date:   2016-05-22 04:04:23 +0700
-categories: [python, codefights]
+title:  "JSX 와 ECMA6 에 대하여"
+date:   2016-05-22 14:04:23 +0700
+categories: [javascript, ECMA6, jsx]
 ---
 
 Author Question: **Giappi**

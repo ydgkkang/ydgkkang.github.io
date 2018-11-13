@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "Find Substrings for line Encoding [CF]"
-date:   2016-06-11 03:04:23 +0700
-categories: [python, codefights]
+title:  "리눅스[우분투 기준] 자주쓰는 명령어 리스팅"
+date:   2016-06-11 13:04:23 +0700
+categories: [linux, command]
 ---
 
 Given a string, return its encoding defined as follows:

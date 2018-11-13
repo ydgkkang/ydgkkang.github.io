@@ -1,11 +1,11 @@
 ---
 layout: post
-title:  "Find the number of even digits in the given integer [CF]"
-date:   2016-06-11 03:39:03 +0700
+title:  "자주 사용하는 git Command 정리"
+date:   2019-11-13 13:39:03 +0700
 categories: [python, codefights]
 ---
 
-Find the number of even digits in the given integer.
+git command 리스트 / 충돌 / 병합 / 폐기 / 제거 .
 
 **Example**
 
@@ -28,17 +28,4 @@ Find the number of even digits in the given integer.
 ```python
 def numberOfEvenDigits(n):
     return len(filter(lambda m: m.isdigit() and int(m) % 2 == 0, str(n)))
-```
-
-**Rests Tests:**
-
-```
-n: 1010
-Output: 2
-
-n: 123
-Output: 1
-
-n: 135
-Output: 0
 ```

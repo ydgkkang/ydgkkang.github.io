@@ -14,15 +14,15 @@ Mysql Rownum 카운팅주기.
 **Example:**
 
 *		SELECT @rn:=@rn+1 AS RANK
-*                  ,t1.SEARCH_WORD
-*        FROM
-*        (SELECT
-*                X.RANK ,
-*                X.SEARCH_WORD
-*        FROM DUMMY X
-*        WHERE 1=1
-*        GROUP BY X.SEARCH_WORD
-*        LIMIT 0, 10) t1, (SELECT @rn:=0) t2;
+                  ,t1.SEARCH_WORD
+        FROM
+        (SELECT
+                X.RANK ,
+                X.SEARCH_WORD
+        FROM DUMMY X
+        WHERE 1=1
+        GROUP BY X.SEARCH_WORD
+        LIMIT 0, 10) t1, (SELECT @rn:=0) t2;
 
 **Input/Output**
 

@@ -4,8 +4,10 @@ title: About
 permalink: /about/
 ---
 
-her smile's my universe
+her smile's my universe  
 
 
 
-email: ydgkkang@gmail.com
+email: ydgkkang@gmail.com   
+
+powered by github / using jekyll

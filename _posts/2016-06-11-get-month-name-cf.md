@@ -25,3 +25,6 @@ WHERE 1=1
 GROUP BY X.SEARCH_WORD
 LIMIT 0, 10) t1, (SELECT @rn:=0) t2;  
 ```
+
+
+그룹화된 쿼리를 테이블화하여 임시변수와 함께 

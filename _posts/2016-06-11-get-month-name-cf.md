@@ -6,8 +6,8 @@ categories: [mysql, RDBMS]
 ---
 
 Mysql Rownum 카운팅주기.  
-일반적으로 group by 가 없는 SQL에서 @rownum:=@rownum+1 하면 되지만,
-그룹별 카운팅시 엉뚱한 숫자가 출력되는 경우가 발생
+일반적으로 group by 가 없는 SQL에서 @rownum:=@rownum+1 하면 되지만,  
+그룹별 카운팅시 엉뚱한 숫자가 출력되는 경우가 발생  
 
 
 

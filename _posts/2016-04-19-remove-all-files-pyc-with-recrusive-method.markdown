@@ -15,14 +15,11 @@ mapWiki/
            livechat (socket.io)
 {% endhighlight %}
 
-Deleting the `.pyc` files one by one would be spending a lot of time. and you will be bored. There is sample how to handle it.
+인스타그램 / 블로그 Data crawling or url forwading 에 대한 discussion
 
-```
-$ find your_dir -name *.pyc -delete
-```
+* language / lib list
+** react native  
+** expo  
+** ant design   
 
-OR, if you work inside current directory.
 
-```
-$ find . -name *.pyc -delete
-```

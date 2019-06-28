@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  "Remove all files .pyc with recrusive method"
-date:   2016-04-19 14:39:34 +0700
-categories: [python, bash]
+date:   2019-06-28 14:39:34 +0700
+categories: [react native]
 ---
 
 This method simple but important. Example in your project dir is like this:

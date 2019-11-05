@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "Replace backend gmail to Postmarkapp for Django"
-date:   2016-04-19 20:15:33 +0700
-categories: [django]
+title:  "개발내용 정리"
+date:   2019-11-05 20:15:33 +0700
+categories: [express,javascript]
 ---
 
 #### 1. Install module of Python Postmark
